@@ -1,0 +1,33 @@
+{
+  "name": "@mailbridgeapi/client",
+  "version": "1.0.0",
+  "description": "Official JavaScript client for the MailBridgeAPI email API.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["email", "api", "smtp", "imap", "mailbridgeapi"],
+  "license": "MIT",
+  "homepage": "https://mailbridgeapi.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailbridgeapi/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mailbridgeapi/nodejs/issues"
+  }
+}
+
