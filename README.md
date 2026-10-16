@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mailbridgeapi/mailbridgeapi/main/assets/logo-mark.png" alt="MailBridgeAPI logo" width="112">
+</p>
+
 # MailBridgeAPI for JavaScript
 
 Official JavaScript and TypeScript client for all public MailBridgeAPI endpoints. It uses the native Fetch API and requires no runtime dependency.
